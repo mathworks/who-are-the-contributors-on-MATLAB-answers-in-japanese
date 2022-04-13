@@ -23,6 +23,6 @@ jobs:
       - name: Run script
         uses: matlab-actions/run-command@v1
         env:
-          ThingSpeakAPIKEY: ${{ secrets.ThingTweetAPIKEY }}
+          THINGTWEETAPIKEY: ${{ secrets.THINGTWEETAPIKEY }}
         with:
           command: tweetRanking_JP

@@ -2,7 +2,7 @@
 % Copyright (c) 2022 The MathWorks, Inc.
 %% Settings
 % Do you want to tweet?
-tweet = false;
+tweet = true;
 % Reporting period?
 % period = "Monthly";
 period = "Weekly";

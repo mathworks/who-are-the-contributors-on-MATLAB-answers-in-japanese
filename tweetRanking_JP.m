@@ -3,7 +3,8 @@
 %% Settings
 % Do you want to tweet?
 tweet = true;
-api_key = getenv('THINGTWEETAPIKEY') % for GitHub Action
+api_key = getenv('THINGTWEETAPIKEY'); % for GitHub Action
+% api_key = 'PutYourDownAPIKey';
 % Reporting period?
 % period = "Monthly";
 period = "Weekly";
@@ -149,8 +150,6 @@ dataset = table(ranks(idx),names(idx),'VariableNames',{'rank','nickname'})
 % 新しい投稿を Tweet
 % ThingTweet 設定
 tturl='https://api.thingspeak.com/apps/thingtweet/1/statuses/update';
-% api_key = 'PutYourDownAPIKey'
-api_key = getenv('THINGTWEETAPIKEY'); % for GitHub Action
 options = weboptions('MediaType','application/x-www-form-urlencoded');
 options.Timeout = 10;
 

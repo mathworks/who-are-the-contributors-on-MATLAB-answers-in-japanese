@@ -1,5 +1,16 @@
-name: Run MATLAB Script on Self-Hosted Runner
+name: Run MATLAB Script on GitHub-Hosted Runner
 on: [push]
+# cron: 
+# * * * * * 
+# | | | | |
+# | | | | |- weekday
+# | | | |--- month
+# | | |----- day
+# | |------- hour
+# |--------- minute
+# on: 
+#  schedule:
+#    - cron: '0 8 * * 1'
 jobs:
   my-job:
     name: Run MATLAB Script

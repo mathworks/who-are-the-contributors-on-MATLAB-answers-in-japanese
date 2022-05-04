@@ -107,7 +107,13 @@ users = [];
 for ii=1:height(item2check)
 
     url = item2check.urls(ii);
-    txt = webread(url);
+    try
+        txt = webread(url);
+    catch ME
+        disp("Error at webread. Pause the execution for 60 sec and retry..")
+        pause(60)
+        txt = webread(url);
+    end
     %     href="/matlabcentral/profile/authors/6704456">Atsushi Ueno</a>
     users_on_post = regexp(txt,'href="/matlabcentral/profile/authors/(?:\d+?)">([^<].+?)</a>','tokens');
     users = [users, string(users_on_post)];

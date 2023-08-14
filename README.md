@@ -145,20 +145,20 @@ tmp = timetable(title, url, author, 'RowTimes', updated_at,...
 
 | |Time|titles|urls|authors|
 |:--:|:--:|:--:|:--:|:--:|
-|1|2022-01-14 00:26:48|"テキストマイニングによる共起ネットワー...|"https://www.mathwor...|"Keisuke Miura"|
-|2|2022-01-13 13:44:56|"変化率を設定したい"|"https://www.mathwor...|"Hirokazu Ishibashi"|
-|3|2022-01-13 13:41:04|"白飛びを除いたL*a*b*値を求めたい...|"https://www.mathwor...|"touka kakihara"|
-|4|2022-01-13 09:59:12|"Windows システム上で MATL...|"https://www.mathwor...|"MathWorks Support T...|
-|5|2022-01-13 09:32:48|"【グラフの作成】Y軸の値からX軸の値を...|"https://www.mathwor...|"RK"|
-|6|2022-01-13 08:48:56|"【値の判別】データ内の値が、閾値より変...|"https://www.mathwor...|"RK"|
-|7|2022-01-13 05:33:25|"tcpclient コマンドと、tcp...|"https://www.mathwor...|"MathWorks Support T...|
-|8|2022-01-13 05:27:12|"License Manager Err...|"https://www.mathwor...|"MathWorks Support T...|
-|9|2022-01-13 04:59:25|"macOS 10.14(Mojave)...|"https://www.mathwor...|"MathWorks Support T...|
-|10|2022-01-13 00:47:22|"アカデミックライセンスを学生でも購入す...|"https://www.mathwor...|"凌太 中野"|
-|11|2022-01-13 00:14:41|"License Manager Err...|"https://www.mathwor...|"MathWorks Support T...|
-|12|2022-01-12 23:43:03|"License Manager Err...|"https://www.mathwor...|"MathWorks Support T...|
-|13|2022-01-12 07:06:17|"複数の異なる数値配列を含む構造体を M...|"https://www.mathwor...|"MathWorks Support T...|
-|14|2022-01-12 06:59:06|"Spring and Damper F...|"https://www.mathwor...|"taichi muto"|
+|1|2022-01-14 00:26:48|"テキストマイニングによる共起ネットワー...|"https://www.mathworks.com|"Keisuke Miura"|
+|2|2022-01-13 13:44:56|"変化率を設定したい"|"https://www.mathworks.com|"Hirokazu Ishibashi"|
+|3|2022-01-13 13:41:04|"白飛びを除いたL*a*b*値を求めたい...|"https://www.mathworks.com|"touka kakihara"|
+|4|2022-01-13 09:59:12|"Windows システム上で MATL...|"https://www.mathworks.com|"MathWorks Support T...|
+|5|2022-01-13 09:32:48|"【グラフの作成】Y軸の値からX軸の値を...|"https://www.mathworks.com|"RK"|
+|6|2022-01-13 08:48:56|"【値の判別】データ内の値が、閾値より変...|"https://www.mathworks.com|"RK"|
+|7|2022-01-13 05:33:25|"tcpclient コマンドと、tcp...|"https://www.mathworks.com|"MathWorks Support T...|
+|8|2022-01-13 05:27:12|"License Manager Err...|"https://www.mathworks.com|"MathWorks Support T...|
+|9|2022-01-13 04:59:25|"macOS 10.14(Mojave)...|"https://www.mathworks.com|"MathWorks Support T...|
+|10|2022-01-13 00:47:22|"アカデミックライセンスを学生でも購入す...|"https://www.mathworks.com|"凌太 中野"|
+|11|2022-01-13 00:14:41|"License Manager Err...|"https://www.mathworks.com|"MathWorks Support T...|
+|12|2022-01-12 23:43:03|"License Manager Err...|"https://www.mathworks.com|"MathWorks Support T...|
+|13|2022-01-12 07:06:17|"複数の異なる数値配列を含む構造体を M...|"https://www.mathworks.com|"MathWorks Support T...|
+|14|2022-01-12 06:59:06|"Spring and Damper F...|"https://www.mathworks.com|"taichi muto"|
 
 イイ感じ。
 

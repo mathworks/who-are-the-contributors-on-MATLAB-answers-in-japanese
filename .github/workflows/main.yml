@@ -11,6 +11,8 @@ name: Run MATLAB Script on GitHub-Hosted Runner
 on:
    schedule:
     - cron: '0 23 * * 0'
+   # Allows you to run this workflow manually from the Action tab
+   workflow_dispatch:
 jobs:
   my-job:
     name: Run tweetRanking_JP.m

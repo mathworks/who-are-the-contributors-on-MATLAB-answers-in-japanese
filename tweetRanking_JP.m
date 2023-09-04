@@ -1,10 +1,8 @@
 %% Script to tweet the top contributors on MATLAB Answers who answer/comment to the Japanese questions.
-% Copyright (c) 2022 The MathWorks, Inc.
+% Copyright (c) 2022-2023 The MathWorks, Inc.
 %% Settings
 % Do you want to tweet?
 tweet = true;
-api_key = getenv('THINGTWEETAPIKEY'); % for GitHub Action
-% api_key = 'PutYourDownAPIKey';
 % Reporting period?
 % period = "Monthly";
 period = "Weekly";
@@ -153,11 +151,6 @@ dataset = table(ranks(idx),names(idx),'VariableNames',{'rank','nickname'})
 
 
 %% Tweet the results
-% 新しい投稿を Tweet
-% ThingTweet 設定
-tturl='https://api.thingspeak.com/apps/thingtweet/1/statuses/update';
-options = weboptions('MediaType','application/x-www-form-urlencoded');
-options.Timeout = 10;
 
 % status = "MATLAB の Q&A サイト：MATLAB Answers" + newline;
 % status = status + "日本語質問に回答する Top アカウント (" + period + ")" + newline + newline;
@@ -172,7 +165,7 @@ disp(status);
 
 if tweet
     try
-        webwrite(tturl, 'api_key', api_key, 'status', status, options);
+        py.tweetJPAnswers.tweetV2(status)
     catch ME
         disp(ME)
     end
